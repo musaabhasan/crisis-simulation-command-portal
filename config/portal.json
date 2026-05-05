@@ -1,0 +1,86 @@
+{
+  "slug": "crisis-simulation-command-portal",
+  "title": "Crisis Simulation Command Portal",
+  "short_name": "CSCP",
+  "tagline": "A command portal for planning, running, scoring, and learning from cyber crisis simulations.",
+  "book": {
+    "title": "Artificial Intelligence for Security Culture Transformation",
+    "author": "Musaab Hasan",
+    "url": "https://www.amazon.com/Artificial-Intelligence-Security-Culture-Transformation/dp/3639876954",
+    "alignment": "Chapter 10: Use of Digital Twins and Simulations for Crisis Scenarios",
+    "theme": "Crisis labs, ransomware exercises, cross-functional decision-making, and resilience rehearsal."
+  },
+  "dimensions": [
+    {
+      "key": "scenario_realism",
+      "label": "Scenario Realism",
+      "description": "Measures realism of technical, operational, and stakeholder injects.",
+      "weight": 1.05
+    },
+    {
+      "key": "decision_velocity",
+      "label": "Decision Velocity",
+      "description": "Tracks time from signal to coordinated decision.",
+      "weight": 1.25
+    },
+    {
+      "key": "role_clarity",
+      "label": "Role Clarity",
+      "description": "Measures whether crisis roles and decision rights are understood.",
+      "weight": 1.1
+    },
+    {
+      "key": "communication_quality",
+      "label": "Communication Quality",
+      "description": "Assesses internal, executive, customer, and regulator messaging.",
+      "weight": 1.0
+    },
+    {
+      "key": "recovery_alignment",
+      "label": "Recovery Alignment",
+      "description": "Connects response actions to recovery objectives and dependencies.",
+      "weight": 1.15
+    },
+    {
+      "key": "lessons_conversion",
+      "label": "Lessons Conversion",
+      "description": "Tracks whether exercise lessons become funded improvements.",
+      "weight": 1.0
+    }
+  ],
+  "workflows": [
+    "Design a scenario with business, technical, legal, and communications injects.",
+    "Assign participants, observers, decision owners, and evidence collectors.",
+    "Run the simulation and capture decision timing, assumptions, and gaps.",
+    "Convert lessons learned into owners, deadlines, and retest criteria."
+  ],
+  "initiatives": [
+    {
+      "title": "Ransomware executive tabletop",
+      "owner": "Business Continuity",
+      "status": "active",
+      "priority": "high",
+      "impact_area": "decision_velocity"
+    },
+    {
+      "title": "Supply-chain compromise drill",
+      "owner": "Procurement Risk",
+      "status": "planned",
+      "priority": "high",
+      "impact_area": "role_clarity"
+    },
+    {
+      "title": "Crisis communications rehearsal",
+      "owner": "Communications",
+      "status": "active",
+      "priority": "medium",
+      "impact_area": "communication_quality"
+    }
+  ],
+  "evidence_examples": [
+    "Assessment score movement with dated evidence.",
+    "Documented behavior observations from simulations or operational workflows.",
+    "Leadership review notes, action owners, and completed improvement tasks."
+  ],
+  "accent": "#b45309"
+}

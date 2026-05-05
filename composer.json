@@ -1,0 +1,21 @@
+{
+  "name": "musaabhasan/crisis-simulation-command-portal",
+  "description": "A command portal for planning, running, scoring, and learning from cyber crisis simulations.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Portal\\": "src/"
+    }
+  },
+  "scripts": {
+    "lint": "php -d display_errors=1 bin/lint.php",
+    "test": "php -d display_errors=1 bin/test.php"
+  }
+}
