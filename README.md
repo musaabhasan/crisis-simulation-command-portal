@@ -1,4 +1,4 @@
-﻿# Crisis Simulation Command Portal
+# Crisis Simulation Command Portal
 
 A command portal for planning, running, scoring, and learning from cyber crisis simulations.
 
